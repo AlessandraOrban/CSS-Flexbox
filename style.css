@@ -1,0 +1,27 @@
+.container {
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 600px;
+    /* width: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    /* flex-flow: row wrap; */
+    /* row / row-reverse / column / column-reverse  */
+    justify-content: center;
+    /* flex-start / flex-end / space-between / space-around / space-evenly */
+    align-items: center;
+    /* flex-start / flex-end / stretch / baseline */
+    gap: 10px 30px;
+}
+
+.items {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    /* margin: 24px; */
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+}
